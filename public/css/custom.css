@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+nav{
+
+}
+
+
+
+main{
+
+}
+
+
+
+footer{
+    margin-top: auto;
+}
+
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Navigation */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-items: end;
+    align-self: center;
+}
+
+nav ul>li{
+    margin-left: 1.2rem;
+    padding: 0.8rem;
+}
+
+nav ul>li>a{
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container ul{
+    list-style: none;
+    display: flex;
+    justify-items: end;
+    align-self: center;
+}
+
+footer .container ul li{
+    margin-left: 1.2rem;
+    padding: 0.8rem;
+}
+
+footer .container ul>li>a{
+    text-decoration: none;
+}
