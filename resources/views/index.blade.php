@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <header>
+    <header id="topbar">
         <div class="container">
             <div class="logo">
                 Curated Design
